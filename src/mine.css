@@ -1,0 +1,33 @@
+.form_input {
+    width: 200px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    outline: none;
+}
+.done{
+    text-decoration: line-through;
+}
+
+.form_input:focus {
+    border-bottom: 1px solid #92c0db;
+}
+
+.form_group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form_button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #b8b7b9;
+    outline: none;
+    cursor: pointer;
+}
+
+.form_ul {
+    width: 20%;
+}
